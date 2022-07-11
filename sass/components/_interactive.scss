@@ -2,8 +2,57 @@
 
 .interactive {
   background-color: interactive-colors.$interactive-Very;
+  * {
+    font-family: "Overpass", sans-serif;
+  }
 
+  &__feedback {
+    background-color: interactive-colors.$interactive-Dark;
+    width: 20rem;
+  }
+
+  &__feedback > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   &__thanks {
     display: none;
+    width: 20rem;
+    background-color: interactive-colors.$interactive-Dark;
   }
+
+  &__circulo {
+    background-color: interactive-colors.$interactive-Dark;
+    color: interactive-colors.$interactive-Medium;
+  }
+
+  h3 {
+    color: interactive-colors.$interactive-White;
+  }
+
+  p {
+    font-size: 15px;
+    color: interactive-colors.$interactive-Medium;
+  }
+
+  button {
+    background-color: interactive-colors.$interactive-orange;
+  }
+  .grey-circle {
+    background-color: interactive-colors.$interactive-Medium;
+
+    height: 40px;
+    width: 40px;
+  }
+}
+input[type="checkbox"]:checked ~ .interactive__thanks {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~ .interactive__feedback {
+  display: none;
+}
+
+input[type="checkbox"]:checked {
+  display: none;
 }
