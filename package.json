@@ -1,0 +1,20 @@
+{
+  "name": "challenge-w2-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawgun/202207-w2ch1-david-lozano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawgun/202207-w2ch1-david-lozano/issues"
+  },
+  "homepage": "https://github.com/dawgun/202207-w2ch1-david-lozano#readme"
+}
