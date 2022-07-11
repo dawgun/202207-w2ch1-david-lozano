@@ -1,0 +1,9 @@
+@use "../../html-components/colors/interactive-colors";
+
+.interactive {
+  background-color: interactive-colors.$interactive-Very;
+
+  &__thanks {
+    display: none;
+  }
+}
